@@ -2,18 +2,32 @@
 
 **Título:** Recriando Wikipedia, com um layout melhor :)
 
-## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+**O desafio proposto pelo professor, era de recriar o Wikipédia com um layout melhor. E deixá-lo o mais acessível possível para que pessoas com deficiência visual ou outras limitações conseguissem ter uma boa experiência ao navegar pelo site.**
 
-## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+**Com isso usei as tags semânticas do HTML para estruturar o conteúdo de forma lógica, para que os leitores de tela possam identificar mais facilmente os elementos. O HTML semântico também é importante para a indexação do site nos mecanismos de busca, pois ajudam os robôs dos mecanismos a entender melhor o conteúdo da página.**
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+**Então criei minha versão do Wikipédia chamada de Wikipedia 2.0.**
+## Tecnologias Utilizadas
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+## Implementações feitas no site
+- **Responsividade:** Deixei o site responsivo para uma melhor experiência do usuário.
 
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
+- **Menus laterais(sidebars):** Criei dois menus laterais que só são abertos, quando o usuário quiser navegar pelo artigo ou caso queira ver outros artigos. Assim dando mais espaço de tela ao conteúdo principal.
+
+- **Pequeno Zoom na imagem:** Adicionei um pequeno zoom nas imagens com css.
+
+- **Não utilização de tags `<br>`:** Não utilizei tags `<br>`, pois percebi que atrapalha na leitura para leitores de tela. Então todo espaçamento, margens e etc. Estilizei no CSS.
+
+- **Scroll Suave:** Adicionei um scroll suave ao navegar pelos links da mesma página.
+
+- **Botão de Voltar ao Início:** Adicionei um botão flutuante no canto inferior direito, para voltar ao início da página. Pois como não há menus laterais, caso o usuário queira acessar outros conteúdos, ele pode estar clicando neste botão para assim voltar ao início da página e assim acessar os menus laterais.
+
+**Link do site [https://jonas-holanda.github.io/wikipedia2.0/](https://jonas-holanda.github.io/wikipedia2.0/)**
+
+<p align="center">
+    <strong>Copyright © <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda</a>. All Rights Reserved.</strong>
+</p>
+
 
 
