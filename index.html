@@ -5,40 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/icons/4962006_education_logo_socialmedia_wikipedia_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header id="top">
+        <figure>
+            <img src="https://cdn.dribbble.com/users/4393331/screenshots/15204037/media/8ccfec7cd82d0c5d5634d6e240091233.png" width="200" alt="Logotipo do Wikipedia"/>
+            <figcaption class="caption-logo">Imagem retirada do site <a href="https://dribbble.com/shots/15204037-Wikipedia-Logo-Redesign" target="_blank">Dribbble</a></figcaption>
+        </figure>
+    </header>  
 
-    <div class="bar"></div>
-
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
-
-        <div class="main">
+    <main class="content" id="main">
+        <h1>Seja Bem-Vindo ao Wikpedia 2.0</h1>
+        <br>
+        <h2>Acesse um dos nossos artigos abaixo</h2>
+        <br>
+     
+        <section class="c-items">
+            <section class="c-items-content">
+                <figure>
+                    <img class="zoom" src="https://upload.wikimedia.org/wikipedia/pt/f/ff/One_Piece_vol._01.jpg" height="300" alt="Capa de One Piece">
+                </figure>
+                <a href="./onePiece.html">Acessar artigo sobre o One Piece</a>
+            </section>  
+                    
+            <section class="c-items-content">
+                <figure>
+                    <img class="zoom" src="https://m.media-amazon.com/images/I/71BFjpc84NL._AC_UF1000,1000_QL80_.jpg" height="300" alt="Capa de Solo Leveling">
+                </figure>
+                <a href="./soloLeveling.html">Acessar artigo sobre Solo Leveling</a>
+            </section> 
+        </section>
             
-        </div>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+        <section class="c-items">
+            <section class="c-items-content">
+                <figure>
+                    <img class="zoom" src="https://upload.wikimedia.org/wikipedia/pt/4/45/Bleach_vol._01.jpg" height="300" alt="Capa de Bleach">
+                </figure>
+                <a href="./bleach.html">Acessar artigo sobre Bleach</a>
+            </section>
+        
+            <section class="c-items-content">
+                <figure>
+                    <img class="zoom" src="https://upload.wikimedia.org/wikipedia/pt/2/29/Doctor_stone.jpg" height="300" alt="Capa de Dr. Stone">
+                </figure>
+                <a href="./drStone.html">Acessar artigo sobre Dr. Stone</a>
+            </section>
+        </section> 
+      
+    </main>
 
-    <div class="footer">
+    <footer>
+        <p>Copyright © <span id="date"></span>
+        <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda.</a> All Rights Reserved.</p>  
+    </footer>
 
-    </div>
+    <a class="back-to-top"><span class="iconify" data-icon="line-md:arrow-up-square" data-width="60" data-height="60"></span></a>
+
+    <script src="./assets/js/scripts.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </body>
 </html>

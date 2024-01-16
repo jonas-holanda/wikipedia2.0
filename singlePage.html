@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="shortcut icon" href="./assets/icons/4962006_education_logo_socialmedia_wikipedia_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header id="top">
+        <figure>
+            <img src="https://cdn.dribbble.com/users/4393331/screenshots/15204037/media/8ccfec7cd82d0c5d5634d6e240091233.png" width="200" alt="Logotipo do Wikipedia"/>
+            <figcaption class="caption-logo">Imagem retirada do site <a href="https://dribbble.com/shots/15204037-Wikipedia-Logo-Redesign" target="_blank">Dribbble</a></figcaption>
+        </figure>
+        <a href="./index.html"><span class="iconify-inline" data-icon="line-md:home" data-inline="true"></span> Página Inicial</a>
+    </header>  
+
+    <section class="nav-article">
+        <div class="menu-buttons">
+            <span onclick="openNav()"><span class="iconify-inline" data-icon="line-md:plus-circle" data-inline="true"></span> Mais Conteúdos</span>
+            <span onclick="openNav2()"><span class="iconify-inline" data-icon="line-md:search-twotone" data-inline="true"></span> Neste Artigo</span>
+        </div>
+        <nav id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <h2>Últimos Artigos</h2>
+                <li class="left-item"><a href="#">Links 1</a></li>
+                <li class="left-item"><a href="#">Links 2</a></li>
+                <li class="left-item"><a href="#">Links 3</a></li>
+            </ul>
+        </nav>
+    
+        <aside id="mySidenav2" class="sidenavRight">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <ul>
+                <h2>Neste Artigo</h2>
+                <li class="right-item"><a href="#">Âncoras 1</a></li>
+                <li class="right-item"><a href="#">Âncoras 2</a></li>
+                <li class="right-item"><a href="#">Âncoras 3</a></li>
+            </ul>
+        </aside> 
+    </section>
+    <main class="content" id="main">
+        <h1>Seja Bem-Vindo ao Wikipedia 2.0</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloribus libero neque, minus in eveniet autem tempore commodi corrupti itaque reprehenderit laboriosam deleniti quae facere aperiam quis, at, rem similique!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptates cumque sunt pariatur quaerat in quae illum nemo ducimus animi dignissimos hic aliquam veniam modi, officiis non sit laudantium odit!</p>
+    </main>
+
+    <footer>
+        <p>Copyright © <span id="date"></span>
+        <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda.</a> All Rights Reserved.</p>  
+    </footer>
+
+    <a class="back-to-top"><span class="iconify" data-icon="line-md:arrow-up-square" data-width="60" data-height="60"></span></a>
+
+    <script src="./assets/js/scripts.js"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</body>
+</html>
