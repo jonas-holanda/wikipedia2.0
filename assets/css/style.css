@@ -163,11 +163,11 @@ main {
 main p {
     text-align: justify;
     text-indent: 2rem;
+    margin: 10px 0;
 }
 
 main h1, h2 {
     text-align: center;
-    margin: 5px 0;
 }
 
 main h1 {
@@ -175,15 +175,26 @@ main h1 {
     font-variant-caps: small-caps;
     font-size: 2.5rem;
     text-shadow: 2px 3px 1px rgba(160, 164, 165,.9);
+    margin-bottom: 20px;
 }
 
-h2 {
+main h2 {
     font-family: 'Linux Libertine O', sans-serif;
     font-style: italic;
     font-weight: 700;
     border-bottom: 1px solid #a0a4a5;
+    margin: 15px 0 5px 0;
     width: 100%;
 }
+
+main h3 {
+    margin-top: 10px;
+}
+
+main figure {
+    margin: 15px 0;
+}
+
 
 figure {
     text-align: center;
@@ -214,7 +225,6 @@ footer {
 }
 
 .back-to-top {
-    background: #fff;
     cursor: pointer;
     color: inherit;
     position: fixed;
